@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Snowman.Tourist.Spots.Domain\Snowman.Tourist.Spots.Domain.csproj" />
+    <ProjectReference Include="..\Snowman.Tourist.Spots.Repository\Snowman.Tourist.Spots.Repository.csproj" />
+    <ProjectReference Include="..\Snowman.Tourist.Spots.Shared.IoC\Snowman.Tourist.Spots.Shared.IoC.csproj" />
+  </ItemGroup>
+
+</Project>

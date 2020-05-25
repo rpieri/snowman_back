@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Categories\Commands\" />
+    <Folder Include="Categories\CommandHandler\" />
+    <Folder Include="Categories\Repositories\" />
+    <Folder Include="TouristSpots\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Snowman.Tourist.Spots.Shared.Domain\Snowman.Tourist.Spots.Shared.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

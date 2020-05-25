@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Snowman.Tourist.Spots.Domain\Snowman.Tourist.Spots.Domain.csproj" />
+    <ProjectReference Include="..\Snowman.Tourist.Spots.Shared.ViewModels\Snowman.Tourist.Spots.Shared.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
